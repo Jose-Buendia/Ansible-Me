@@ -1,0 +1,11 @@
+---
+url: https://releases.wikimedia.org/mediawiki/1.29/mediawiki-1.29.1.tar.gz
+path: /opt/mediawiki-1.29.1
+apache_path: /var/www/html/mediawiki
+media_config_file: /var/www/html/mediawiki/LocalSettings.php
+#Variables de configuración para media wiki
+mysql_media_usr: "mediawikiuser"
+mysql_media_pwd: "abc"
+mysql_media_db: "mediawiki"
+docker_ip_host: 172.17.0.1
+mysql_db_prefix: "media_"
